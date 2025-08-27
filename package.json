@@ -1,5 +1,5 @@
 {
-  "name": "framework-arduinoespressif32",
+  "name": "framework-arduinoespressif32-solo1",
   "version": "3.3.0",
   "description": "Arduino Wiring-based Framework for the Espressif ESP32-solo1",
   "keywords": [
