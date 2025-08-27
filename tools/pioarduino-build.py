@@ -34,7 +34,7 @@ board_config = env.BoardConfig()
 build_mcu = board_config.get("build.mcu", "").lower()
 partitions_name = board_config.get("build.partitions", board_config.get("build.arduino.partitions", ""))
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoespressif32")
+FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoespressif32-solo1")
 FRAMEWORK_LIBS_DIR = platform.get_package_dir("framework-arduinoespressif32-libs")
 assert isdir(FRAMEWORK_DIR)
 
